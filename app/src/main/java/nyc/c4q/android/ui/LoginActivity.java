@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
+import nyc.c4q.android.R;
+
 public class LoginActivity extends Activity {
 
   private EditText emailField;
@@ -20,8 +22,9 @@ public class LoginActivity extends Activity {
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     // TODO - load view hierarchy in R.layout.activity_login
+      setContentView(R.layout.activity_login);
 
-    // TODO - get references to views, and other setup
+      // TODO - get references to views, and other setup
 
     // TODO - call checkCredentials via OnClickListener
   }
