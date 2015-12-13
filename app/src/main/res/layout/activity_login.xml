@@ -14,7 +14,7 @@
       />
 
 
-    <!-- TODO: show the c4q logo, center it and center crop it -->
+    <!-- #4 TODO: show the c4q logo, center it and center crop it -->
 
   <ImageView
       android:id="@+id/logo"

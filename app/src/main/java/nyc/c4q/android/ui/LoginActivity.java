@@ -13,25 +13,25 @@ public class LoginActivity extends Activity {
   private final AuthenticationManager manager;
 
   public LoginActivity() {
-    // TODO - fix this
+    // #25 TODO - fix this
     manager = null;
   }
 
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    // TODO - load view hierarchy in R.layout.activity_login
+    // #26 TODO - load view hierarchy in R.layout.activity_login
 
-    // TODO - get references to views, and other setup
+    // #27 TODO - get references to views, and other setup
 
-    // TODO - call checkCredentials via OnClickListener
+    // #28 TODO - call checkCredentials via OnClickListener
   }
 
   private void checkCredentials(String email, String password) {
     if(manager.validateLogin(email, password)) {
-      // TODO - go to EmailListActivity
+      // #29 TODO - go to EmailListActivity
     }
     else {
-      // TODO launch alert dialog on failed login
+      // #30 TODO launch alert dialog on failed login
       // check strings.xml for dialog
     }
   }

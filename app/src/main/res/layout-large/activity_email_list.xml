@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <!-- TODO: add fragment -->
+    <!-- #6 TODO: add fragment -->
     <fragment
         android:id="@+id/fragment_email_list"
         android:layout_height="wrap_content"

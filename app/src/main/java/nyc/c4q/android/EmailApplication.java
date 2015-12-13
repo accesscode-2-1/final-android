@@ -22,7 +22,7 @@ public class EmailApplication extends Application {
   @Override public void onCreate() {
     super.onCreate();
 
-    // TODO - finish this
+    // #32 TODO - finish this
     notificationManager = null;
 
     handlerThread = new HandlerThread("email-timer");
@@ -34,7 +34,7 @@ public class EmailApplication extends Application {
       @Override public void run() {
         if (emailService.hasNewMail()) {
 
-          // TODO
+          // #33 TODO
           // 1) get the most recent email and..
           // a) send a notification to the user notifying of the new email
           // b) use R.string.you_got_email as title

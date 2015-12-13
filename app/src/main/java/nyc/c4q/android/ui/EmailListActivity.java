@@ -40,14 +40,14 @@ public class EmailListActivity extends FragmentActivity implements EmailListFrag
     if (isTwoPane) {
       // tablet - single activity with list and detail
 
-      // TODO - use EmailDetailFragment's factory method to create the fragment
+      // #18 TODO - use EmailDetailFragment's factory method to create the fragment
       // then add the fragment to the SupportFragmentManager under R.id.email_detail_container
 
     }
     else {
       // mobile - one activity at a time
 
-      // TODO - launch EmailDetailActivity passing "email" extra
+      // #19 TODO - launch EmailDetailActivity passing "email" extra
     }
   }
 }

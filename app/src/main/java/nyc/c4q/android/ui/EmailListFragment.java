@@ -20,7 +20,7 @@ public class EmailListFragment extends Fragment {
   private ListView emailList;
 
   public EmailListFragment() {
-    // TODO create email service
+    // #20 TODO create email service
   }
 
   private OnEmailSelectedListener listener;
@@ -41,14 +41,14 @@ public class EmailListFragment extends Fragment {
 
   @Override public View onCreateView(LayoutInflater inflater, ViewGroup container,
       Bundle savedInstanceState) {
-    // TODO - Inflate view
+    // #21 TODO - Inflate view
     View view = null;
 
-    // TODO - get emails from service and set up list adapter
+    // #22 TODO - get emails from service and set up list adapter
 
-    // TODO - Bind adapter to ListView
+    // #23 TODO - Bind adapter to ListView
 
-    // TODO - when an email is clicked, notify the host activity via onEmailSelected...
+    // #24 TODO - when an email is clicked, notify the host activity via onEmailSelected...
 
     return view;
   }

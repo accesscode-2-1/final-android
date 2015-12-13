@@ -56,13 +56,13 @@ public class FakeEmailService implements EmailService {
   }
 
   public boolean hasNewMail() {
-    // TODO - 30% of the time you should generate a new email
+    // #7 TODO - 30% of the time you should generate a new email
     // hint: this class has a member variable that generates random numbers
     return false;
   }
 
   @NonNull private Email generateNewRandomEmail() {
-    // TODO - return a new email
+    // #8 TODO - return a new email
     // hint: use RANDOM_PIC above
     return null;
   }

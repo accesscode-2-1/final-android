@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".ItemsListActivity" >
 
-    <!-- TODO: add fragment -->
+    <!-- #3 TODO: add fragment -->
     <fragment
         android:id="@+id/fragment_email_list"
         android:layout_width="wrap_content"

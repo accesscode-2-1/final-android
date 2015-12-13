@@ -25,18 +25,18 @@ public class EmailDetailFragment extends Fragment {
       Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_email_detail, container, false);
 
-    // TODO - get references to views
+    // #14 TODO - get references to views
 
-    // TODO - replace nulls
+    // #15 TODO - replace nulls
     Picasso.with(getActivity()).load((String) null).into((ImageView) null);
 
-    // TODO - bind email data to views
+    // #16 TODO - bind email data to views
 
     return view;
   }
 
   public static EmailDetailFragment newInstance(Email email) {
-    // TODO - implement this factory method
+    // #17 TODO - implement this factory method
     // create fragment, set up its only argument (the email) and return it
 
     // hint

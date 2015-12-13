@@ -38,14 +38,14 @@ public class EmailAdapter extends BaseAdapter {
 
   @Override public View getView(int position, View view, ViewGroup parent) {
     if (view == null) {
-      // TODO - load R.layout.list_email_row
+      // #9 TODO - load R.layout.list_email_row
     }
 
-    // TODO - setup views
+    // #10 TODO - setup views
 
-    // TODO - get the email defined at 'position'
+    // #11 TODO - get the email defined at 'position'
 
-    // TODO - replace nulls
+    // #12 TODO - replace nulls
     Picasso.with(context)
         .load((String)null)
         .placeholder(R.mipmap.ic_launcher)
@@ -53,7 +53,7 @@ public class EmailAdapter extends BaseAdapter {
         .centerCrop()
         .into((ImageView)null);
 
-    // TODO - set up other views
+    // #13 TODO - set up other views
     // for body, only use MAX_BODY_LENGTH chars followed by "..."
 
     return view;

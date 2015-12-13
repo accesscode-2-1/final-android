@@ -3,7 +3,7 @@
     package="nyc.c4q.android"
     >
 
-  <!-- TODO add permission to connect to the internet -->
+  <!-- #1 TODO add permission to connect to the internet -->
 
   <application
       android:name=".EmailApplication"
@@ -14,7 +14,7 @@
       android:theme="@style/AppTheme"
       >
 
-    <!-- TODO add main launcher activity -->
+    <!-- #2 TODO add main launcher activity -->
 
     <activity
         android:name=".ui.EmailListActivity"
