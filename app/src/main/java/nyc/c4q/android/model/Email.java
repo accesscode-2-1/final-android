@@ -2,7 +2,7 @@ package nyc.c4q.android.model;
 
 import java.io.Serializable;
 import java.util.Date;
-
+//This class represent An Email object
 public class Email implements Serializable {
   private static final long serialVersionUID = -6099312954099962806L;
 

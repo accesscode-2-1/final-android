@@ -2,9 +2,9 @@ package nyc.c4q.android.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
-
 public class LoginActivity extends Activity {
 
   private EditText emailField;
@@ -26,9 +26,10 @@ public class LoginActivity extends Activity {
     // #28 TODO - call checkCredentials via OnClickListener
   }
 
-  private void checkCredentials(String email, String password) {
+  private void checkCredentials(String email, String password) throws NullPointerException{
     if(manager.validateLogin(email, password)) {
       // #29 TODO - go to EmailListActivity
+      Log.i("FKJLd", "msg");
     }
     else {
       // #30 TODO launch alert dialog on failed login

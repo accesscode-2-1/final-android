@@ -5,6 +5,9 @@ import android.app.NotificationManager;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Looper;
+import android.util.Log;
+import android.widget.Toast;
+
 import nyc.c4q.android.rest.FakeEmailService;
 
 public class EmailApplication extends Application {
@@ -24,7 +27,7 @@ public class EmailApplication extends Application {
 
     // #32 TODO - finish this
     notificationManager = null;
-
+    //Work with main thred
     handlerThread = new HandlerThread("email-timer");
     handlerThread.start();
     Looper looper = handlerThread.getLooper();
@@ -40,6 +43,7 @@ public class EmailApplication extends Application {
           // b) use R.string.you_got_email as title
           // c) use R.string.notification_email_from (accounting for who sent the email)
           // d) when user clicks on notification, go to EmailDetailActivity
+          Log.i("Tag", "djfka");
 
         }
 

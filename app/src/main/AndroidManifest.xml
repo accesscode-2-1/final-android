@@ -34,6 +34,7 @@
           android:value=".ui.EmailListActivity"
           />
     </activity>
+      <activity android:name=".ui.LoginActivity"/>
   </application>
 
 </manifest>
